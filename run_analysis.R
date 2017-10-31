@@ -1,7 +1,5 @@
 # Load libraries/packages
 library(data.table)
-library(dplyr)
-
 
 
 # Load all data
