@@ -28,6 +28,23 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 9. Final datais in the data frame "finalData"
 
 
+#  Variable description
+- featuresData - contains data from file features.txt
+- activityLabelsData - contains data from file activity_labels.txt
+- xTestData - contains data from file x_test.txt
+- yTestData - contains data from file y_test.txt
+- ySubjectTestData - contains data from file subject_test.txt
+- xTrainingData - contains data from file x_rain.txt
+- yTrainingData - contains data from file y_train.txt
+- ySubjectTrainingData - contains data from file subject_train.txt
+- stdAndMeanFeatures - features with std and mean
+- mergedTestData - merged columns of test data
+- mergedTrainingData - merged columns of training data
+- combinedData - merged rows of training and test data
+- newNames - Names with removed special characters from column names 
+- finalData - Tidy data set with mean of each activity and subject
+
+
 #  Data description
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
